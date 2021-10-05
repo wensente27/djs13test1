@@ -3,7 +3,7 @@ async function createCmd(Client, guildId) {
 
         {
             name: 'echo',
-            description: 'Echo',
+            description: 'Echo text.',
             options: [{
                 name: "text",
                 type: "STRING",
@@ -15,7 +15,17 @@ async function createCmd(Client, guildId) {
         //ping
         {
             name: 'ping',
-            description: 'Shows your ping and client\'s ping'
+            description: 'Shows your ping and client\'s ping.'
+        },
+        {
+            name: 'purge',
+            description: 'Remove up to 300 messages in a channel.',
+            options: [{
+                name: "amount",
+                type: "NUMBER",
+                description: "Amount of messages you want to purge. (Up to 300 only)",
+                required: true
+            }]
         }
 
 
