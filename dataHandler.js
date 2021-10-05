@@ -19,11 +19,11 @@ async function createCmd(Client, guildId) {
         },
         {
             name: 'purge',
-            description: 'Remove up to 300 messages in a channel.',
+            description: 'Remove up to 100 messages in a channel.',
             options: [{
                 name: "amount",
                 type: "NUMBER",
-                description: "Amount of messages you want to purge. (Up to 300 only)",
+                description: "Amount of messages you want to purge. (Up to 100 only)",
                 required: true
             }]
         }
