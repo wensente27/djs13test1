@@ -4,5 +4,4 @@ module.exports.run = async (inter) => {
 
 module.exports.help = {
     name: "ping",
-    memberPermissions: []
 }
