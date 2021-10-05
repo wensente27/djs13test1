@@ -18,7 +18,8 @@ async function createCmd(Client, guildId) {
             description: 'Shows your ping and client\'s ping'
         },
         {
-            name: ''
+            name: 'test',
+            type: 3
         }
 
 
